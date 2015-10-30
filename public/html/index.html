@@ -1,0 +1,49 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html/css; charset=UTF-8">
+	<meta http-equiv="x-us-compatible" content="ie=edge"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/whackamole.css">
+	<title>Load-A-Bole</title>
+</head>
+
+<body>
+
+	<audio id="bubbles" src="images_and_media/bubbles.mp3" type="audio/mp3"/></audio>
+	<audio id="cough" src="images_and_media/cough.mp3" type="audio/mp3"/></audio>
+
+		<div class="container">
+			<h1>LOAD-A-BOLE</h1>
+			<h3>Click the lighter to fire up a game!</h3>
+
+			<input type="image" src="/images_and_media/lighter.jpg" name="sButton" class="sButton" id="start"/>
+
+			<div class="gameboard">
+				<div class="boxes" id="moleBoxOne"></div>
+				<div class="boxes" id="moleBoxTwo"></div>
+				<div class="boxes" id="moleBoxThree"></div>
+
+				<div class="boxes" id="moleBoxFour"></div>
+				<div class="boxes" id="moleBoxFive"></div>
+				<div class="boxes" id="moleBoxSix"></div>
+
+				<div class="boxes" id="moleBoxSeven"></div>
+				<div class="boxes" id="moleBoxEight"></div>
+				<div class="boxes" id="moleBoxNine"></div>	
+			</div>
+
+			<div class="gameStuff">
+	     		<h2 class="marginLess">Level- <span id ="level">1</span></h2>	    
+	     		<h3 class="marginLess">Time until 4:20- <span id ="timer">10</span></h3>
+	     		<h2 class="marginLess">Bowls loaded- <span id ="score">0</span></h2>
+	     		<h3 class="marginLess">Pipes Left- <span id ="livesLeft">3</span></h3>
+	     		<h2 class="marginLess">Highest You've Gotten- <span id ="highScore">0</span></h2>
+			</div>
+		</div>	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
+	<script src="/js/whackamole.js"></script>
+</body>
+
+</html>
